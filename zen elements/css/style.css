@@ -1,0 +1,67 @@
+body {
+  font-family: 'Bona Nova', serif;
+  background: rgb(238,174,202);
+  background: radial-gradient(circle, rgba(238,174,202,1) 15%, rgba(173,248,174,1) 100%);
+}
+
+img.image {
+  background-image: url("	https://live.staticflickr.com/4481/23588981828_331ea61b45_b.jpg");
+  height: auto;
+  width: auto;
+  margin-left: 100px;
+  margin-right: 100px;
+}
+
+ul.menu li {
+  width: 100px;
+  display: inline;
+  padding: 10px;
+  font-weight: bold;
+  background-color: #DAF7A6;
+  border: 1px solid green;
+  margin-right: 10px;
+  border-radius: 25px;
+}
+
+ul.menu {
+  list-style: none;
+  margin: 0;
+  margin-top: 30px;
+  padding: 0;
+  display: block;
+  width: auto;
+  height: 30px;
+  text-align: center;
+}
+
+div.content {
+  clear: both;
+  width: 90%;
+  margin: auto;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  column-count: 2;
+  column-gap: 20px;
+  column-rule: 1px solid green;
+  font-size: 15px;
+}
+
+img {
+  width: 50px;
+}
+
+h1 {
+  text-align: center;
+  color: black;
+}
+
+h2 {
+  color: black;
+  display: inline;
+  padding: 7px;
+  font-size: 17px;
+  background-color: #FEC8E0;
+  border: 1px solid red;
+  margin-right: 10px;
+  border-radius: 25px;
+}
